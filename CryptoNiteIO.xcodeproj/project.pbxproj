@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC1EB331F4C46EE00D61D51 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC1EB321F4C46EE00D61D51 /* Alamofire.framework */; };
+		6EC1EB351F4C46F000D61D51 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC1EB341F4C46F000D61D51 /* Cashier.framework */; };
+		6EC1EB371F4C46F200D61D51 /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC1EB361F4C46F200D61D51 /* Serpent.framework */; };
+		6EC1EB3C1F4C49AF00D61D51 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1EB3B1F4C49AF00D61D51 /* ExchangeRate.swift */; };
 		6EE706B51F4C2C390049AFC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706B41F4C2C390049AFC6 /* AppDelegate.swift */; };
 		6EE706B71F4C2C390049AFC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706B61F4C2C390049AFC6 /* ViewController.swift */; };
 		6EE706BA1F4C2C390049AFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE706B81F4C2C390049AFC6 /* Main.storyboard */; };
 		6EE706BD1F4C2C390049AFC6 /* CryptoNiteIO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706BB1F4C2C390049AFC6 /* CryptoNiteIO.xcdatamodeld */; };
 		6EE706BF1F4C2C390049AFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE706BE1F4C2C390049AFC6 /* Assets.xcassets */; };
 		6EE706C21F4C2C390049AFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE706C01F4C2C390049AFC6 /* LaunchScreen.storyboard */; };
+		6EE706D91F4C2CDE0049AFC6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706D81F4C2CDE0049AFC6 /* AppCoordinator.swift */; };
+		6EE706DB1F4C2CEC0049AFC6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706DA1F4C2CEC0049AFC6 /* Coordinator.swift */; };
+		6EE706E41F4C30790049AFC6 /* BitcoinCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706DD1F4C30790049AFC6 /* BitcoinCoordinator.swift */; };
+		6EE706E51F4C30790049AFC6 /* BitcoinInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706DE1F4C30790049AFC6 /* BitcoinInteractor.swift */; };
+		6EE706E61F4C30790049AFC6 /* BitcoinModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706DF1F4C30790049AFC6 /* BitcoinModels.swift */; };
+		6EE706E71F4C30790049AFC6 /* BitcoinPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706E01F4C30790049AFC6 /* BitcoinPresenter.swift */; };
+		6EE706E81F4C30790049AFC6 /* BitcoinProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706E11F4C30790049AFC6 /* BitcoinProtocols.swift */; };
+		6EE706E91F4C30790049AFC6 /* BitcoinViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE706E21F4C30790049AFC6 /* BitcoinViewController.storyboard */; };
+		6EE706EA1F4C30790049AFC6 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706E31F4C30790049AFC6 /* BitcoinViewController.swift */; };
+		6EE706F61F4C31A10049AFC6 /* secondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706EF1F4C31A10049AFC6 /* secondCoordinator.swift */; };
+		6EE706F71F4C31A10049AFC6 /* secondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706F01F4C31A10049AFC6 /* secondInteractor.swift */; };
+		6EE706F81F4C31A10049AFC6 /* secondModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706F11F4C31A10049AFC6 /* secondModels.swift */; };
+		6EE706F91F4C31A10049AFC6 /* secondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706F21F4C31A10049AFC6 /* secondPresenter.swift */; };
+		6EE706FA1F4C31A10049AFC6 /* secondProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706F31F4C31A10049AFC6 /* secondProtocols.swift */; };
+		6EE706FB1F4C31A10049AFC6 /* secondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE706F41F4C31A10049AFC6 /* secondViewController.storyboard */; };
+		6EE706FC1F4C31A10049AFC6 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE706F51F4C31A10049AFC6 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EC1EB321F4C46EE00D61D51 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6EC1EB341F4C46F000D61D51 /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/iOS/Cashier.framework; sourceTree = "<group>"; };
+		6EC1EB361F4C46F200D61D51 /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/iOS/Serpent.framework; sourceTree = "<group>"; };
+		6EC1EB3B1F4C49AF00D61D51 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		6EE706B11F4C2C390049AFC6 /* CryptoNiteIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoNiteIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE706B41F4C2C390049AFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE706B61F4C2C390049AFC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +48,22 @@
 		6EE706BE1F4C2C390049AFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EE706C11F4C2C390049AFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EE706C31F4C2C390049AFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE706D81F4C2CDE0049AFC6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6EE706DA1F4C2CEC0049AFC6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6EE706DD1F4C30790049AFC6 /* BitcoinCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinCoordinator.swift; sourceTree = "<group>"; };
+		6EE706DE1F4C30790049AFC6 /* BitcoinInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinInteractor.swift; sourceTree = "<group>"; };
+		6EE706DF1F4C30790049AFC6 /* BitcoinModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinModels.swift; sourceTree = "<group>"; };
+		6EE706E01F4C30790049AFC6 /* BitcoinPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinPresenter.swift; sourceTree = "<group>"; };
+		6EE706E11F4C30790049AFC6 /* BitcoinProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinProtocols.swift; sourceTree = "<group>"; };
+		6EE706E21F4C30790049AFC6 /* BitcoinViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BitcoinViewController.storyboard; sourceTree = "<group>"; };
+		6EE706E31F4C30790049AFC6 /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = "<group>"; };
+		6EE706EF1F4C31A10049AFC6 /* secondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondCoordinator.swift; sourceTree = "<group>"; };
+		6EE706F01F4C31A10049AFC6 /* secondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondInteractor.swift; sourceTree = "<group>"; };
+		6EE706F11F4C31A10049AFC6 /* secondModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondModels.swift; sourceTree = "<group>"; };
+		6EE706F21F4C31A10049AFC6 /* secondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPresenter.swift; sourceTree = "<group>"; };
+		6EE706F31F4C31A10049AFC6 /* secondProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondProtocols.swift; sourceTree = "<group>"; };
+		6EE706F41F4C31A10049AFC6 /* secondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = secondViewController.storyboard; sourceTree = "<group>"; };
+		6EE706F51F4C31A10049AFC6 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC1EB331F4C46EE00D61D51 /* Alamofire.framework in Frameworks */,
+				6EC1EB351F4C46F000D61D51 /* Cashier.framework in Frameworks */,
+				6EC1EB371F4C46F200D61D51 /* Serpent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC1EB311F4C46EE00D61D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1EB361F4C46F200D61D51 /* Serpent.framework */,
+				6EC1EB341F4C46F000D61D51 /* Cashier.framework */,
+				6EC1EB321F4C46EE00D61D51 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EC1EB391F4C478F00D61D51 /* Support  */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1EB3B1F4C49AF00D61D51 /* ExchangeRate.swift */,
+			);
+			path = "Support ";
+			sourceTree = "<group>";
+		};
+		6EC1EB3A1F4C47E500D61D51 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		6EE706A81F4C2C390049AFC6 = {
 			isa = PBXGroup;
 			children = (
+				6EE706EB1F4C314A0049AFC6 /* scenes */,
+				6EE706DC1F4C2D5D0049AFC6 /* Support */,
 				6EE706B31F4C2C390049AFC6 /* CryptoNiteIO */,
 				6EE706B21F4C2C390049AFC6 /* Products */,
+				6EC1EB311F4C46EE00D61D51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +127,6 @@
 		6EE706B31F4C2C390049AFC6 /* CryptoNiteIO */ = {
 			isa = PBXGroup;
 			children = (
-				6EE706B41F4C2C390049AFC6 /* AppDelegate.swift */,
-				6EE706B61F4C2C390049AFC6 /* ViewController.swift */,
 				6EE706B81F4C2C390049AFC6 /* Main.storyboard */,
 				6EE706BE1F4C2C390049AFC6 /* Assets.xcassets */,
 				6EE706C01F4C2C390049AFC6 /* LaunchScreen.storyboard */,
@@ -65,6 +134,56 @@
 				6EE706BB1F4C2C390049AFC6 /* CryptoNiteIO.xcdatamodeld */,
 			);
 			path = CryptoNiteIO;
+			sourceTree = "<group>";
+		};
+		6EE706DC1F4C2D5D0049AFC6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6EE706D81F4C2CDE0049AFC6 /* AppCoordinator.swift */,
+				6EE706B41F4C2C390049AFC6 /* AppDelegate.swift */,
+				6EE706DA1F4C2CEC0049AFC6 /* Coordinator.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		6EE706EB1F4C314A0049AFC6 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1EB3A1F4C47E500D61D51 /* Repository */,
+				6EC1EB391F4C478F00D61D51 /* Support  */,
+				6EE706ED1F4C31560049AFC6 /* bitcoins */,
+				6EE706EE1F4C316E0049AFC6 /* Seconscene */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		6EE706ED1F4C31560049AFC6 /* bitcoins */ = {
+			isa = PBXGroup;
+			children = (
+				6EE706E21F4C30790049AFC6 /* BitcoinViewController.storyboard */,
+				6EE706B61F4C2C390049AFC6 /* ViewController.swift */,
+				6EE706E31F4C30790049AFC6 /* BitcoinViewController.swift */,
+				6EE706DD1F4C30790049AFC6 /* BitcoinCoordinator.swift */,
+				6EE706DE1F4C30790049AFC6 /* BitcoinInteractor.swift */,
+				6EE706DF1F4C30790049AFC6 /* BitcoinModels.swift */,
+				6EE706E01F4C30790049AFC6 /* BitcoinPresenter.swift */,
+				6EE706E11F4C30790049AFC6 /* BitcoinProtocols.swift */,
+			);
+			path = bitcoins;
+			sourceTree = "<group>";
+		};
+		6EE706EE1F4C316E0049AFC6 /* Seconscene */ = {
+			isa = PBXGroup;
+			children = (
+				6EE706EF1F4C31A10049AFC6 /* secondCoordinator.swift */,
+				6EE706F01F4C31A10049AFC6 /* secondInteractor.swift */,
+				6EE706F11F4C31A10049AFC6 /* secondModels.swift */,
+				6EE706F21F4C31A10049AFC6 /* secondPresenter.swift */,
+				6EE706F31F4C31A10049AFC6 /* secondProtocols.swift */,
+				6EE706F41F4C31A10049AFC6 /* secondViewController.storyboard */,
+				6EE706F51F4C31A10049AFC6 /* secondViewController.swift */,
+			);
+			path = Seconscene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +196,7 @@
 				6EE706AD1F4C2C390049AFC6 /* Sources */,
 				6EE706AE1F4C2C390049AFC6 /* Frameworks */,
 				6EE706AF1F4C2C390049AFC6 /* Resources */,
+				6EC1EB381F4C471600D61D51 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE706FB1F4C31A10049AFC6 /* secondViewController.storyboard in Resources */,
+				6EE706E91F4C30790049AFC6 /* BitcoinViewController.storyboard in Resources */,
 				6EE706C21F4C2C390049AFC6 /* LaunchScreen.storyboard in Resources */,
 				6EE706BF1F4C2C390049AFC6 /* Assets.xcassets in Resources */,
 				6EE706BA1F4C2C390049AFC6 /* Main.storyboard in Resources */,
@@ -133,13 +255,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EC1EB381F4C471600D61D51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cashier.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Serpent.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EE706AD1F4C2C390049AFC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE706D91F4C2CDE0049AFC6 /* AppCoordinator.swift in Sources */,
+				6EE706FA1F4C31A10049AFC6 /* secondProtocols.swift in Sources */,
+				6EE706F81F4C31A10049AFC6 /* secondModels.swift in Sources */,
+				6EE706E41F4C30790049AFC6 /* BitcoinCoordinator.swift in Sources */,
+				6EC1EB3C1F4C49AF00D61D51 /* ExchangeRate.swift in Sources */,
+				6EE706F71F4C31A10049AFC6 /* secondInteractor.swift in Sources */,
+				6EE706E81F4C30790049AFC6 /* BitcoinProtocols.swift in Sources */,
+				6EE706E61F4C30790049AFC6 /* BitcoinModels.swift in Sources */,
 				6EE706B71F4C2C390049AFC6 /* ViewController.swift in Sources */,
 				6EE706BD1F4C2C390049AFC6 /* CryptoNiteIO.xcdatamodeld in Sources */,
+				6EE706E51F4C30790049AFC6 /* BitcoinInteractor.swift in Sources */,
+				6EE706FC1F4C31A10049AFC6 /* secondViewController.swift in Sources */,
+				6EE706DB1F4C2CEC0049AFC6 /* Coordinator.swift in Sources */,
+				6EE706EA1F4C30790049AFC6 /* BitcoinViewController.swift in Sources */,
+				6EE706F91F4C31A10049AFC6 /* secondPresenter.swift in Sources */,
+				6EE706E71F4C30790049AFC6 /* BitcoinPresenter.swift in Sources */,
+				6EE706F61F4C31A10049AFC6 /* secondCoordinator.swift in Sources */,
 				6EE706B51F4C2C390049AFC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +434,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JWZKK84V7N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CryptoNiteIO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.CryptoNiteIO;
@@ -292,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JWZKK84V7N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CryptoNiteIO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Logicappsource.CryptoNiteIO;
